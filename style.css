@@ -1,10 +1,49 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f5f5f5;
-    color: #333;
-    padding: 20px;
-}
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV - Aziz Soumanou</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="background-dark"></div>
 
-h1 {
-    color: #2c3e50;
-}
+  <header>
+    <h1>Aziz Soumanou</h1>
+    <p class="subtitle">Développeur web Front-end</p>
+  </header>
+
+  <main>
+    <section id="description">
+      <h2>Description</h2>
+      <p>Passionné par le front-end et le design moderne, je crée des interfaces esthétiques et performantes.</p>
+    </section>
+
+    <section id="formations">
+      <h2>Formations</h2>
+      <ul>
+        <li>Licence 1 Informatique – ENEAM</li>
+        <li>Bac Scientifique D – COMPLEXE SCOLAIRE SAINT MICHEL</li>
+      </ul>
+    </section>
+
+    <section id="competences">
+      <h2>Compétences</h2>
+      <ul>
+        <li>HTML, CSS, JavaScript</li>
+        <li>React, Node.js</li>
+        <li>Git & collaboration</li>
+      </ul>
+    </section>
+
+    <section id="associations">
+      <h2>Associations</h2>
+      <ul>
+        <li>Membre de l’association Étudiants à ESGIS</li>
+      </ul>
+    </section>
+  </main>
+</body>
+</html>
